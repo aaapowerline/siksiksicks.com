@@ -1,0 +1,32 @@
+.music-video {
+  height: 400px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 600px) {
+  .music-video {
+    flex-direction: column;
+  }
+}
+
+.music-video__image {
+  max-width: 30%;
+  object-fit: cover;
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+  transition: transform 0.15s ease-in-out;
+  margin: 0.4rem;
+}
+
+@media (max-width: 600px) {
+  .music-video__image {
+    max-width: 100%;
+  }
+}
+
+.music-video__video {
+  width: 100%;
+  margin: 0.4rem;
+}

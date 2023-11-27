@@ -1,0 +1,15 @@
+.bio {
+  padding: 3rem;
+  max-width: 750px;
+}
+
+.bio__link {
+  color: inherit;
+}
+
+.bio__text {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  text-indent: 2em;
+  font-family: "Adler", serif;
+}

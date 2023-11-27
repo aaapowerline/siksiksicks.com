@@ -1,0 +1,46 @@
+.footer {
+  width: 100%;
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+}
+
+.mailing-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.mailing-list__text {
+  margin-bottom: 0.8rem;
+  font-family: "Adler", serif;
+}
+
+.mailing-list__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mailing-list__text-input {
+  padding: 0.5rem;
+  width: 10rem;
+  background: #000000;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  outline: none;
+  margin-right: 0.4rem;
+}
+
+.mailing-list__submit {
+  padding: 0.5rem;
+  background: #000000;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.mailing-list__submit:hover {
+  background: #ffffff;
+  color: #000000;
+}

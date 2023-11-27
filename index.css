@@ -1,0 +1,30 @@
+@import url("./album-showcase.css");
+@import url("./bio.css");
+@import url("./header.css");
+@import url("./music-video.css");
+@import url("./footer.css");
+@import url("./press.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
+
+@font-face {
+  font-family: "Adler";
+  src: url("./assets/adler.ttf") format("truetype");
+}
+
+body {
+  background: #ff008cab;
+  font-family: "Crimson Text", serif;
+  color: #252525;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}

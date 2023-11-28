@@ -12,8 +12,13 @@
 .header__logo {
   background: #000000;
   max-width: 25rem;
-  min-width: 11rem;
   margin: 0.4rem;
+}
+
+@media (max-width: 600px) {
+  .header__logo {
+    max-width: 12rem;
+  }
 }
 
 .header__text {

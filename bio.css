@@ -1,6 +1,7 @@
 .bio {
-  padding: 3rem;
+  padding: 0.8rem;
   max-width: 750px;
+  color: #000000;
 }
 
 .bio__link {

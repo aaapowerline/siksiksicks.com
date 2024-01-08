@@ -18,6 +18,9 @@ function setActiveLink() {
     case "press.html":
       activeLinkId = "nav-press";
       break;
+    case "merch.html":
+      activeLinkId = "nav-merch";
+      break;
   }
 
   const activeLink = document.querySelector(`#${activeLinkId}`);

@@ -4,12 +4,17 @@
 @import url("./music-video.css");
 @import url("./footer.css");
 @import url("./press.css");
+@import url("./merch.css");
 
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
 
 @font-face {
   font-family: "Adler";
   src: url("./assets/adler.ttf") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
